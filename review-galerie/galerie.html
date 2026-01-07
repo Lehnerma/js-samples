@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="galerie.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Galerie</h1>
+        </header>
+
+        <div class="controls">
+            <input type="text" id="photoTitle" placeholder="Foto Titel">
+            <input type="text" id="photoEmoji" placeholder="Emoji (z.B. 🌟)">
+            <button id="addPhotoBtn">Foto hinzufügen</button>
+            <button id="showPopularBtn" onclick="showPopular()">Nur beliebte anzeigen</button>
+            <button id="resetBtn">Alle anzeigen</button>
+        </div>
+
+        <div id="gallery" class="gallery"></div>
+    </div>
+
+    <script src="galer.js"></script>
+</html>
